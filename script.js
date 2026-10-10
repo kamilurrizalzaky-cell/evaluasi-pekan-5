@@ -79,3 +79,21 @@ console.log("Typeof catatan transaksi 0:", typeof transaksi[0].catatan);
 // 6. catatan kasir
 let catatanKasir;
 console.log["Catatan Kasir", catatanKasir];
+
+/*
+jawab pertanyaan bagian 2:
+1. jawaban:
+   karena nomor telepon diawali dengan angka 0 [yang jika disimpan sebagai number akan diabaikan oleh javascript] dan nomor telepon tidak pernah 
+   digunakan untuk operasi matematika.
+2. jawaban:
+   website diisi null secara sengaja untuk menunjukkan bahwa properti tersebut kosong atau belum ada nilai
+   nya. sedangkan catatanKasir dibiarkan tanpa nilai karena variabel tersebut baru dideklarasikan dan belum diinisialisasi.
+3. jawaban:
+   hasilnya adalah undefined. karena array di javasript menggunakan indeks berbaris 0, shingga indeks untuk 6 item adalah 0 sampai 5.
+   indeks 6 berada di luar batas array.
+4. jawaban:
+   hasilnya adalah object. di javascript, array secara teknis adalah tipe data turunan dari object [object khusus yang meiliki properti numerik dan method array].
+5. jawaban;
+   menu dibuat sebagai array karena berisi daftar item yang sejenis dan berurutan. kedai dibuat sebagai object karena merepresentasikan satu entitas yang 
+   memiliki berbagai atribut dengan kunci yang spesifik.
+*/
